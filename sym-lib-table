@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nanoComp")(type "KiCad")(uri "${KIPRJMOD}/nanoComp.kicad_sym")(options "")(descr ""))
+)
