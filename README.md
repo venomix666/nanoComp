@@ -1,4 +1,4 @@
-Carrier board for the Tang Nano 20K, intended for computer applications.   
+Simple carrier board for the Tang Nano 20K, intended for computer applications.   
 
 The following features interfaces are available:
 * USB-C power input with diode protection to avoid back-powering when Tang Nano 20K USB cable is connected
