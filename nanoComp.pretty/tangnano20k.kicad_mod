@@ -572,4 +572,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "dfdbd90c-6a66-4313-a9c1-72e91b09cbfc")
 	)
+	(model "${KIPRJMOD}/Tang_Nano_20K_3920.step"
+		(offset
+			(xyz -26.6 -11.3 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
