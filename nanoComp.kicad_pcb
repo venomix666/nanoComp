@@ -6044,6 +6044,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/450301014042.stp"
+			(offset
+				(xyz 0 0 2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
