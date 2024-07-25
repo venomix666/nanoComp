@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "nanoComp")
-		(date "2024-07-15")
-		(rev "PA1")
+		(date "2024-07-25")
+		(rev "PA2")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Pin"
@@ -3662,6 +3662,12 @@
 		(uuid "2a04ce1f-25e8-4914-9b7e-b50a39db02de")
 	)
 	(junction
+		(at 67.31 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3478c2da-f6e2-4470-b6c7-7034e1735010")
+	)
+	(junction
 		(at 36.83 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3674,10 +3680,22 @@
 		(uuid "66c2f971-54af-488d-82f9-eaa65dc3789f")
 	)
 	(junction
+		(at 67.31 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fc00476-6b88-444f-9a30-57bc41d286b5")
+	)
+	(junction
 		(at 34.29 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73978bb0-3a3c-451a-852f-664efac59005")
+	)
+	(junction
+		(at 39.37 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ff87f89-3869-45fb-acf5-e4b3b43a664c")
 	)
 	(junction
 		(at 205.74 147.32)
@@ -3692,10 +3710,28 @@
 		(uuid "8d5a3bbd-f4e3-4c16-8975-9ac17d8740b5")
 	)
 	(junction
+		(at 67.31 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94c21a2c-be10-4cdc-8c1c-6f05c966ce7a")
+	)
+	(junction
+		(at 67.31 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c89081-4b26-4235-9318-e823462378ea")
+	)
+	(junction
 		(at 64.77 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a47c5ec0-1f32-48c4-8e10-236c0802cd38")
+	)
+	(junction
+		(at 78.74 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a57e156f-5619-4873-b5ce-66f281efa573")
 	)
 	(junction
 		(at 35.56 140.97)
@@ -3710,10 +3746,22 @@
 		(uuid "ba42fcc7-91f7-4fec-988f-49529960ee3b")
 	)
 	(junction
+		(at 77.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6579744-7b12-492c-9e60-1e4ffb670a7e")
+	)
+	(junction
 		(at 198.12 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9c37ebb-581d-42c0-a0a0-b0fb29f56382")
+	)
+	(junction
+		(at 38.1 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc363253-b397-4063-9d0a-58964257c02d")
 	)
 	(junction
 		(at 26.67 58.42)
@@ -3787,6 +3835,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 93.98) (xy 77.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e7bd93-16f6-4dfa-91b2-aa582f06d5a3")
+	)
+	(wire
+		(pts
 			(xy 172.72 91.44) (xy 195.58 91.44)
 		)
 		(stroke
@@ -3824,6 +3882,16 @@
 			(type default)
 		)
 		(uuid "0da40d86-88f5-4831-8c88-5c861d2b5ba7")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 77.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df4cc6f-bce7-49fc-a96a-78891c5652d3")
 	)
 	(wire
 		(pts
@@ -3884,6 +3952,16 @@
 			(type default)
 		)
 		(uuid "16ecda86-db77-4a9f-8e57-5776f6bcf80e")
+	)
+	(wire
+		(pts
+			(xy 67.31 121.92) (xy 67.31 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a652d11-1c37-4b41-a91a-edcf612a8da3")
 	)
 	(wire
 		(pts
@@ -4277,7 +4355,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 124.46) (xy 45.72 124.46)
+			(xy 154.94 124.46) (xy 78.74 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4307,7 +4385,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 80.01) (xy 135.89 80.01)
+			(xy 78.74 124.46) (xy 45.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69cb86e6-69c2-4fcc-a3e8-06b7743f72f1")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 67.31 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4337,6 +4425,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 93.98) (xy 67.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714e3003-a9ad-41e0-8d3b-9e45360f3a99")
+	)
+	(wire
+		(pts
 			(xy 252.73 93.98) (xy 262.89 93.98)
 		)
 		(stroke
@@ -4354,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "836f778c-a89a-41cb-b49d-87b41a545ecc")
+	)
+	(wire
+		(pts
+			(xy 67.31 80.01) (xy 67.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84127fcf-6651-4422-9182-b5e80715eb2f")
 	)
 	(wire
 		(pts
@@ -4377,6 +4485,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 135.89) (xy 78.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ab2837-045d-4629-8e3b-ac8d9b66ebf2")
+	)
+	(wire
+		(pts
+			(xy 67.31 80.01) (xy 135.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87416783-c3ab-4cf1-9229-af183d7f34f2")
+	)
+	(wire
+		(pts
 			(xy 45.72 116.84) (xy 48.26 116.84)
 		)
 		(stroke
@@ -4387,7 +4515,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 121.92) (xy 152.4 121.92)
+			(xy 45.72 121.92) (xy 67.31 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4414,6 +4542,16 @@
 			(type default)
 		)
 		(uuid "917a9ea9-8a64-4f63-87a9-934be8215ec7")
+	)
+	(wire
+		(pts
+			(xy 67.31 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b28217-cfa3-4105-a368-02a44c5336a5")
 	)
 	(wire
 		(pts
@@ -4497,6 +4635,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 140.97) (xy 67.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ee7c6f-0a13-496c-8323-b1d52195d78a")
+	)
+	(wire
+		(pts
 			(xy 223.52 109.22) (xy 242.57 109.22)
 		)
 		(stroke
@@ -4504,6 +4652,16 @@
 			(type default)
 		)
 		(uuid "a165e046-a970-455a-929b-9e19a704d7df")
+	)
+	(wire
+		(pts
+			(xy 77.47 99.06) (xy 67.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51df74f-9dbb-4754-8c89-5f78b0764e9a")
 	)
 	(wire
 		(pts
@@ -4524,6 +4682,16 @@
 			(type default)
 		)
 		(uuid "a5fbdad2-2b20-47f6-8a80-d26680cd9bda")
+	)
+	(wire
+		(pts
+			(xy 78.74 124.46) (xy 78.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6812265-22d7-4b3d-94f6-63ad77ae52e2")
 	)
 	(wire
 		(pts
@@ -4594,6 +4762,16 @@
 			(type default)
 		)
 		(uuid "b9a3436e-5d4e-4c98-a1dd-264cd539df60")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 46.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb50f8e-ce1a-408d-9c82-d6ced7d91fa4")
 	)
 	(wire
 		(pts
@@ -4697,7 +4875,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 82.55) (xy 46.99 82.55)
+			(xy 138.43 82.55) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4714,6 +4892,16 @@
 			(type default)
 		)
 		(uuid "d2dd3728-2950-4b6e-b1d7-e630e9ad9107")
+	)
+	(wire
+		(pts
+			(xy 67.31 99.06) (xy 39.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a47a26-3741-4de6-b7ea-53fdff5fb876")
 	)
 	(wire
 		(pts
@@ -4734,6 +4922,16 @@
 			(type default)
 		)
 		(uuid "df3d9342-9d8c-4f94-8e10-7a72a9d1e106")
+	)
+	(wire
+		(pts
+			(xy 67.31 121.92) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e194a10f-378d-4bfd-9d74-877d1f2f4862")
 	)
 	(wire
 		(pts
@@ -4834,6 +5032,16 @@
 			(type default)
 		)
 		(uuid "eeea5ed2-ff52-47b4-987b-e9fa468ccc72")
+	)
+	(wire
+		(pts
+			(xy 67.31 135.89) (xy 67.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c6adc0-99df-4afb-ab56-deea5b8390f0")
 	)
 	(wire
 		(pts
@@ -5474,6 +5682,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 78.74 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "068c7947-dd02-4db7-96fe-bd288899eb58")
+		(property "Reference" "R10"
+			(at 81.28 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 81.28 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 76.962 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "603-RT0805FRE0715KL"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82ef0bcd-dfb7-445f-ae62-019e2214d4c1")
+		)
+		(pin "1"
+			(uuid "8c98949c-2198-46db-bed4-2090339a6e42")
+		)
+		(instances
+			(project "nanoComp"
+				(path "/d525f8da-dd4b-44aa-97bb-6911e5886281"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 255.27 53.34 270)
 		(unit 1)
@@ -5535,6 +5849,112 @@
 			(project "nano6502_carrier"
 				(path "/d525f8da-dd4b-44aa-97bb-6911e5886281"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "155bcdd5-c353-49bc-9903-6a6f27c44a67")
+		(property "Reference" "R7"
+			(at 69.85 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 69.85 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 65.532 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "603-RT0805FRE0715KL"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "257a80f8-ae82-498b-a073-747744502c8f")
+		)
+		(pin "1"
+			(uuid "a8b88905-e57e-416c-b7c5-d924bf3a96ec")
+		)
+		(instances
+			(project "nanoComp"
+				(path "/d525f8da-dd4b-44aa-97bb-6911e5886281"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8140,6 +8560,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 77.47 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b053638d-5847-4f3d-b83a-7a7d3ac402c1")
+		(property "Reference" "R8"
+			(at 80.01 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 80.01 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 75.692 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "603-RT0805FRE0715KL"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fb56492-482a-4cee-bcf5-5daf3d685d81")
+		)
+		(pin "1"
+			(uuid "0936e59b-5ad1-4aaf-ac1d-c31ee677e977")
+		)
+		(instances
+			(project "nanoComp"
+				(path "/d525f8da-dd4b-44aa-97bb-6911e5886281"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 118.11 22.86 0)
 		(unit 1)
@@ -8918,6 +9444,112 @@
 			(project "nano6502_carrier"
 				(path "/d525f8da-dd4b-44aa-97bb-6911e5886281"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8240925-5bcd-4172-8fde-d7d7516a453f")
+		(property "Reference" "R9"
+			(at 69.85 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 69.85 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 65.532 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "603-RT0805FRE0715KL"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dddbfa8-61e8-4d83-b35e-d43c53fa1e1f")
+		)
+		(pin "1"
+			(uuid "895baa15-2e38-4dca-807c-8bb35f9f93e5")
+		)
+		(instances
+			(project "nanoComp"
+				(path "/d525f8da-dd4b-44aa-97bb-6911e5886281"
+					(reference "R9")
 					(unit 1)
 				)
 			)
