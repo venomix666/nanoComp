@@ -482,7 +482,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D_models/nanoComp.step",
       "svg": "",
       "vrml": ""
     },

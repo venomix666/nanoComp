@@ -10,7 +10,7 @@
 	(title_block
 		(title "nanoComp")
 		(date "2024-07-10")
-		(rev "A")
+		(rev "2")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -5791,7 +5791,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "0aec5a19-5020-4d85-a411-45be4172963e")
 		)
-		(model "${KIPRJMOD}/Tang_Nano_20K_3920.step"
+		(model "${KIPRJMOD}/3D_models/Tang_Nano_20K_3920.step"
 			(offset
 				(xyz -26.6 -11.3 5)
 			)
@@ -6892,7 +6892,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at -4.0875 0 360)
+			(at -4.0875 0 0)
 			(layer "F.SilkS")
 			(uuid "2a4c1d16-073a-49e5-b5fc-50d2809c3919")
 			(effects
@@ -6903,7 +6903,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "c4b4e792-8aa8-46df-b5fc-3e47ce57994b")
 			(effects
@@ -7110,7 +7110,7 @@
 			(uuid "8c8633ff-e2a5-4de8-8cc5-92bbc5972c92")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "238ad93c-22d0-47eb-8f01-1afda36ecf2d")
 			(effects
@@ -8144,7 +8144,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/450301014042.stp"
+		(model "${KIPRJMOD}/3D_models/450301014042.stp"
 			(offset
 				(xyz 0 0 2.8)
 			)
