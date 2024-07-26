@@ -9,4 +9,5 @@ The following features interfaces are available:
 * GPIO header
 * Power header with 5V and 3V3 available
 
-<img src="https://github.com/venomix666/nanoComp/blob/main/nanoComp_3D.png" width="50%">
+<img src="https://github.com/venomix666/nanoComp/blob/main/img/nanoComp_3D.png" width="50%">
+<img src="https://github.com/venomix666/nanoComp/blob/main/img/nanoComp_V1_photo.jpg" width="50%">
